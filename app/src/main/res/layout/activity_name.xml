@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:background="@color/green">
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/promptTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="112dp"
+        android:fontFamily="sans-serif"
+        android:includeFontPadding="false"
+        android:text="@string/prompt_name"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/firstNameTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif"
+        android:text="@string/first_name"
+        app:layout_constraintTop_toBottomOf="@id/promptTv"
+        app:layout_constraintLeft_toLeftOf="@+id/promptTv"/>
+
+    <EditText
+        android:id="@+id/firstNameEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toBottomOf="@id/firstNameTv" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/surnameTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif"
+        android:text="@string/surname"
+        app:layout_constraintTop_toBottomOf="@id/firstNameEt"
+        app:layout_constraintLeft_toLeftOf="@+id/firstNameEt"/>
+
+    <EditText
+        android:id="@+id/surnameEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toBottomOf="@id/surnameTv" />
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/nextBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/circle"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/green"
+        android:textSize="42dp"
+        android:textAlignment="center"
+        app:strokeWidth="4dp"
+        android:text=">"
+        app:layout_constraintTop_toBottomOf="@id/surnameEt"
+        app:layout_constraintRight_toRightOf="@id/surnameEt"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">Screenflow-validation-using-variables</string>
+    <string name="first_name">FIRST NAME </string>
+    <string name="prompt_name">What\'s your name? </string>
+    <string name="surname">SURNAME </string>
+    <string name="prompt_email">And, your email?</string>
+    <string name="email_address">EMAIL ADDRESS</string>
+    <string name="passwordTv">PASSWORD</string>
+    <string name="prompt_password">Create a password</string>
+    <string name="prompt_result">Well done! \n Sign up complete</string>
+    <string name="name">NAME</string>
+    <string name="surname_result">SURNAME</string>
+    <string name="email_result">EMAIL</string>
+    <string name="password_result">PASSWORD</string>
 </resources>
