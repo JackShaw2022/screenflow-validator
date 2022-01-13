@@ -7,23 +7,23 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.core.widget.addTextChangedListener
 import androidx.fragment.app.Fragment
-import com.example.screenflow_validation_using_variables.databinding.FragmentFormBinding
+import com.example.screenflow_validation_using_variables.databinding.FragmentNameFormBinding
 
 // Import androidx fragment
 class NameFormFragment : Fragment() {
 
     // ? after type means nullable
-    private var _binding: FragmentFormBinding? = null
+    private var _binding: FragmentNameFormBinding? = null
 
     // !! asserting non null, don't do too often can cause NPE(null pointer exception)
-    private val binding: FragmentFormBinding get() = _binding!!
+    private val binding: FragmentNameFormBinding get() = _binding!!
 
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        _binding = FragmentFormBinding.inflate(inflater, container, false)
+        _binding = FragmentNameFormBinding.inflate(inflater, container, false)
         return binding.root
     }
 

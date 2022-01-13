@@ -12,8 +12,11 @@
         <entry key="..\:/Users/User/AndroidStudioProjects/Screenflowvalidationusingvariables/app/src/main/res/layout/activity_test.xml" value="0.13020833333333334" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.14266304347826086" />
         <entry key="app/src/main/res/layout/fragment_email_form.xml" value="0.14855072463768115" />
+        <entry key="app/src/main/res/layout/fragment_email_info.xml" value="0.14673913043478262" />
         <entry key="app/src/main/res/layout/fragment_form.xml" value="0.14266304347826086" />
         <entry key="app/src/main/res/layout/fragment_info.xml" value="0.14266304347826086" />
+        <entry key="app/src/main/res/layout/fragment_name_form.xml" value="0.14673913043478262" />
+        <entry key="app/src/main/res/layout/fragment_name_info.xml" value="0.14673913043478262" />
       </map>
     </option>
   </component>

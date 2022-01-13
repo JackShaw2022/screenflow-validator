@@ -5,19 +5,19 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import com.example.screenflow_validation_using_variables.databinding.FragmentInfoBinding
+import com.example.screenflow_validation_using_variables.databinding.FragmentNameInfoBinding
 
 class NameInfoFragment: Fragment() {
 
-    private var _binding: FragmentInfoBinding? = null
-    private val binding: FragmentInfoBinding get() = _binding!!
+    private var _binding: FragmentNameInfoBinding? = null
+    private val binding: FragmentNameInfoBinding get() = _binding!!
 
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        _binding = FragmentInfoBinding.inflate(inflater, container, false)
+        _binding = FragmentNameInfoBinding.inflate(inflater, container, false)
         return binding.root
     }
 
